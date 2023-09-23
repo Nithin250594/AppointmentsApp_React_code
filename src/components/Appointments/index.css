@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.appointments-bg {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointments-section {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 95%;
+  padding-top: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 20px;
+}
+
+.appointment-title {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  padding-bottom: 25px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-text {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.title-box {
+  border: 1px #171f46 solid;
+  border-radius: 3px;
+  width: 400px;
+  height: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  color: #ffffff;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-width: 0px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.appointments-image {
+  width: 500px;
+  align-self: flex-start;
+}
+.separator {
+  border: 1px #b5b7c4 solid;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointments-header {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.selected-btn {
+  background-color: #9897f0;
+  color: #ffffff;
+  height: 30px;
+  border: 2px #9897f0 solid;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.unselected-btn {
+  background-color: transparent;
+  color: #9897f0;
+  height: 30px;
+  border: 2px #9897f0 solid;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.appointments-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
